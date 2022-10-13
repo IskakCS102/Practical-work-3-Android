@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">"Практическая работа №2"</string>
+    <string name="IskakIslam">Искак Ислам Азаматулы группа CS-202©</string>
+    <string name="primer">image</string>
+    <string name="button_name">Введите текст и нажмите на кнопку</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Табличная разметка элементов по-центру всего экрана -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/image"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_height="109dp"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="@string/IskakIslam"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="395dp"
+            android:layout_height="102dp"
+            android:layout_span="6"
+            android:contentDescription="@string/primer"
+            app:srcCompat="@drawable/primer" />
+    </TableRow>
+
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="20dp"
+            android:gravity="right"
+            android:text="a="
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/editText_a"
+            android:importantForAutofill="no"
+            android:inputType="number|text"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="30dp"
+            android:gravity="right"
+            android:text="b="
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <EditText
+            android:id="@+id/editText_b"
+            android:importantForAutofill="no"
+            android:inputType="number|text"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="30dp"
+            android:gravity="right"
+            android:text="x="
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <EditText
+            android:id="@+id/editText_x"
+            android:importantForAutofill="no"
+            android:inputType="number|text"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            android:textColor="#FFFFFF"/>
+
+    </TableRow>
+
+
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/buttonSum"
+            android:layout_span="6"
+            android:onClick="onClick"
+            android:textSize="14dp"
+            android:text="РЕШИТЬ"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/textView_sum"
+            android:layout_height="63dp"
+            android:layout_span="6"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="@string/button_name"
+            android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>

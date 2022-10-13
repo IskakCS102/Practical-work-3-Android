@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Основная линейная разметка элементов по-вертикали и по-центру экрана -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/image"
+              android:gravity="center_vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="@string/IskakIslam"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:textStyle="bold|italic" />
+
+    <!-- Вложенная линейная разметка элементов по-горизонтали -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/primer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Текстовая надпись -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="a="/>
+
+        <!-- Поле ввода числа со знаком для "a" -->
+        <EditText
+            android:id="@+id/editText_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|text"
+            android:textColor="#FFFFFF"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <!-- Текстовая надпись -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="15sp"
+            android:textSize="18dp"
+            android:text="b="/>
+
+        <!-- Поле ввода числа со знаком для "b" -->
+        <EditText
+            android:id="@+id/editText_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|text"
+            android:textColor="#FFFFFF"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <!-- Текстовая надпись -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15sp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="x="/>
+
+        <!-- Поле ввода числа со знаком для "c" -->
+        <EditText
+            android:id="@+id/editText_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|text"
+            android:textColor="#FFFFFF"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:onClick="onClick"
+        android:text="РЕШИТЬ"/>
+
+
+    <TextView
+        android:id="@+id/textView_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:text="@string/button_name"
+        tools:ignore="HardcodedText"
+        />
+
+
+
+
+</LinearLayout>

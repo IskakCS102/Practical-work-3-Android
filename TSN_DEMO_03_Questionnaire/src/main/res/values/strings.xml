@@ -1,0 +1,48 @@
+<resources>
+    <!-- Название программы -->
+    <string name="app_name">Практическая работа №3</string>
+
+    <!-- Текстовые константы -->
+    <string name="Мужчина">Мужчина</string>
+    <string name="Женщина">Женщина</string>
+    <string name="Ф.И.О">Ф.И.О</string>
+    <string name="Введите_ФИО">Введите свое Ф.И.О</string>
+    <string name="Укажите_пол">Укажите пол?</string>
+    <string name="Мужской">Мужской</string>
+    <string name="Выберите_образование">Какое у вас образование?</string>
+    <string name="Ваша_стана">С какой вы страны?</string>
+    <string name="Дальше">Дальше</string>
+    <string name="высшее">Магистратура</string>
+    <string name="среднее">Бакалавра</string>
+    <string name="начальное">Среднее</string>
+    <string name="Сводные_данные">Сводные данные:</string>
+    <string name="Назад">Назад</string>
+    <string name="Назад2">Назад</string>
+    <string name="Дальше2">Дальше</string>
+    <string name="Выход">Выход</string>
+    <string name="Вы">Вы:</string>
+    <string name="Ваш_пол">Ваш пол:</string>
+    <string name="Ваше_образование">Образование:</string>
+    <string name="Страна">Страна:</string>
+    <string name="Стих">
+        В этот лес завороженный,
+        По пушинкам серебра,
+        Я с винтовкой заряженной
+        На охоту шел вчера.
+        По дорожке чистой, гладкой
+        Я прошел, не наследил…
+        Кто ж катался здесь украдкой?
+        Кто здесь падал и ходил?
+        Подойду, взгляну поближе:
+        Хрупкий снег изломан весь.</string>
+
+    <!-- Массив строк -->
+    <string-array name="country_arrays">
+        <item>Казахстан</item>
+        <item>Россия</item>
+        <item>Америка</item>
+        <item>Германия</item>
+        <item>Франция</item>
+    </string-array>
+
+</resources>
