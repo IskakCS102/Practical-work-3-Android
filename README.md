@@ -3,8 +3,9 @@
 
 
 Вторая разметка, с заполнением и выбором информации пользователя. <br>
-![Screenshot](Screenshot_20221013_140629.png)
+![Screenshot_20221013_140716](https://user-images.githubusercontent.com/90903338/198211464-d045188e-20fb-41ef-a2dd-31d4f2a1b2d3.png)<br>
 
 
-Третье окно, с выводом информации пользователя.
-![Screenshot](Screenshot_20221013_140728.png)
+Третье окно, с выводом информации пользователя. <br>
+![Screenshot_20221013_140728](https://user-images.githubusercontent.com/90903338/198211507-f39ada62-d2aa-414c-92cc-d78e1b2c72e7.png)
+
